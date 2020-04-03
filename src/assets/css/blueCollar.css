@@ -164,8 +164,8 @@ a.link_gr:hover{ color: #f00;}
 .nav ul li{ font-size: 14px;background-color: #F9F9F9;}
 .nav ul li a{ display: block; line-height: 45px; color: #999; padding-left: 52px;}
 .nav ul li a:hover{ display: block; line-height: 45px; color: #43A2FF;background-color: #F6FBFF; }
-.nav ul li a.cur, .nav_title.cur{ color: #fff; background-color: #43A2FF;}
-.nav_title.cur i, .nav_title.cur a{ color: #fff;}
+.nav ul li a.on, .nav_title.on{ color: #fff; background-color: #43A2FF;}
+.nav_title.on i, .nav_title.on a{ color: #fff;}
 .nav_title a{ display: block;color: #333;}
 .nav_title i{ margin-right: 10px;vertical-align: top;color: #43A2FF; }
 .nav_title{ line-height: 45px;padding-left: 20px; }
@@ -193,7 +193,7 @@ a.link_gr:hover{ color: #f00;}
 .input_selectSet input{ width: 70%;padding: 0 20% 0 10%;height: 32px;line-height: 32px;font-size: 14px;border-radius: 3px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;cursor: pointer;outline: none;}
 .input_selectSet .iconfont{ position: absolute;right: 5px;top: 2px;line-height: 30px;font-size: 14px;cursor: pointer; }
 .admin_operAll .input_selectSet{ margin-left: 10px; }
-.down_list{ position: absolute;left: -1px; border: 1px solid #e3e3e3;border-bottom: 0;border-radius: 0 0 3px 3px;-webkit-border-radius: 0 0 3px 3px;-moz-border-radius: 0 0 3px 3px;background-color: #fff;z-index: 1;display: none;}
+.down_list{ position: absolute;left: -1px; border: 1px solid #e3e3e3;border-bottom: 0;border-radius: 0 0 3px 3px;-webkit-border-radius: 0 0 3px 3px;-moz-border-radius: 0 0 3px 3px;box-shadow: 0 3px 6px #e3e3e3;-webkit-box-shadow: 0 3px 6px #e3e3e3;background-color: #fff;z-index: 1;display: none;}
 .down_list p{ padding: 0 8px; line-height: 36px;border-bottom: 1px solid #ddd;cursor: pointer;text-overflow: ellipsis;white-space: nowrap;overflow: hidden; }
 .btn_theme{ width: 120px;height: 38px;line-height: 38px;color: #fff;text-align: center;font-size: 14px; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;outline: none!important;border-color: #43A2FF;background-color: #43A2FF;cursor: pointer;border: none; }
 .btn_default{ width: 120px;line-height: 36px; color: #43A2FF;font-size: 14px;border: 1px solid #43A2FF; background-color: #fff;blr:expression(this.onFocus=this.blur());-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;outline: none;cursor: pointer; }
